@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ContactsTable.qml</file>
+        <file>ContactsDelegateFactory.qml</file>
+        <file>TitleDelegate.qml</file>
+        <file>SuggestionActionDelegate.qml</file>
+        <file>ContactActionDelegate.qml</file>
+        <file>icons/chevron-right.svg</file>
+        <file>icons/chat.svg</file>
+        <file>icons/call.svg</file>
+        <file>ContactDataDelegate.qml</file>
+        <file>ContactSubTitleDelegate.qml</file>
+        <file>SuggestionDataDelegate.qml</file>
+        <file>icons/contact.svg</file>
+        <file>SuggestionIcon.qml</file>
+        <file>mockavatars/johndoe.png</file>
+        <file>mockavatars/jennydoe.png</file>
+    </qresource>
+</RCC>
