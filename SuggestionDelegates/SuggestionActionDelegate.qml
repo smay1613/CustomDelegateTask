@@ -4,8 +4,8 @@ Item {
     id: root
     implicitWidth: 60
     implicitHeight: 40
-    property string icon1Source: "icons/call.svg"
-    property string icon2Source: "icons/chat.svg"
+    property string icon1Source: "qrc:/icons/call.svg"
+    property string icon2Source: "qrc:/icons/chat.svg"
 
     Row {
         anchors.centerIn: root

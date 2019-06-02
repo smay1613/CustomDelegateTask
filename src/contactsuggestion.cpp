@@ -23,6 +23,6 @@ QVariant ContactSuggestion::data() const
 
 QString ContactSuggestion::iconSource() const
 {
-    static const QString suggestionIcon {"icons/contact.svg"};
+    static const QString suggestionIcon {"qrc:/icons/contact.svg"};
     return suggestionIcon;
 }

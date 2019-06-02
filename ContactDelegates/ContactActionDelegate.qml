@@ -4,7 +4,7 @@ Item {
     id: root
     implicitHeight: 40
     implicitWidth: 70
-    property string iconSource: "icons/chevron-right.svg"
+    property string iconSource: "qrc:/icons/chevron-right.svg"
 
     Image {
         anchors.centerIn: root

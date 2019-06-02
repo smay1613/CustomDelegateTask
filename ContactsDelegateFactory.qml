@@ -3,24 +3,24 @@ import Contacts 1.0
 
 QtObject {
     function getIconDelegate(entryType) {
-        return "SuggestionIcon.qml"
+        return "ContactDelegates/ContactIcon.qml"
     }
 
     function getTitleDelegate(entryType) {
-        return "TitleDelegate.qml";
+        return "ContactDelegates/ContactTitleDelegate.qml";
     }
 
     function getSubtitleDelegate(entryType) {
-        return "ContactSubTitleDelegate.qml"
+        return "ContactDelegates/ContactSubTitleDelegate.qml"
     }
 
     function getDataDelegate(entryType) {
         switch (entryType)
         {
         case ContactsModel.Contact:
-            return "ContactDataDelegate.qml";
+            return "ContactDelegates/ContactDataDelegate.qml";
         case ContactsModel.ContactSuggestion:
-            return "SuggestionDataDelegate.qml";
+            return "SuggestionDelegates/SuggestionDataDelegate.qml";
         default:
             return "";
         }
@@ -30,9 +30,9 @@ QtObject {
         switch (entryType)
         {
         case ContactsModel.Contact:
-            return "ContactActionDelegate.qml";
+            return "ContactDelegates/ContactActionDelegate.qml";
         case ContactsModel.ContactSuggestion:
-            return "SuggestionActionDelegate.qml";
+            return "SuggestionDelegates/SuggestionActionDelegate.qml";
         default:
             return "";
         }
